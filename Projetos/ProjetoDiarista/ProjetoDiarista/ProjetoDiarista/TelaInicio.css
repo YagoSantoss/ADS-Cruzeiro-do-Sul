@@ -1,0 +1,217 @@
+* {
+    margin: 0; /* Remove as margens de todos os elementos */
+    padding: 0; /* Remove o padding de todos os elementos */
+    box-sizing: border-box; /* Inclui padding e borda nas dimensões do elemento */
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif; /* Define a fonte padrão da página */
+    background-color: #f4f6f9; /* Cor de fundo da página */
+    color: #333; /* Cor do texto */
+}
+
+#slideshow {
+    position: relative; /* Permite posicionamento relativo para elementos filhos */
+    max-width: 50%; /* Largura máxima do slideshow */
+    margin: auto; /* Centraliza o slideshow horizontalmente */
+    overflow: hidden; /* Esconde o conteúdo que ultrapassa os limites */
+    height: 400px; 
+}
+
+.slideshow-container {
+    position: relative; /* Posiciona os slides dentro do contêiner */
+}
+
+.mySlides {
+    display: none; /* Esconde os slides inicialmente */
+}
+
+img {
+    vertical-align: middle; /* Alinha imagens verticalmente no centro */
+    width: 80%; /* As imagens ocupam 100% da largura do contêiner */
+   
+}
+
+.prev, .next {
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    position: absolute; /* Posicionamento absoluto dentro do contêiner */
+    top: 50%; /* Posiciona os botões no meio vertical */
+    width: auto; /* Largura automática */
+    padding: 16px; /* Espaçamento interno */
+    color: white; /* Cor do texto dos botões */
+    font-weight: bold; /* Texto em negrito */
+    font-size: 18px; /* Tamanho da fonte */
+    transition: 0.6s ease; /* Transição suave para efeitos */
+    border-radius: 0 3px 3px 0; /* Borda arredondada no canto direito */
+    user-select: none; /* Impede a seleção de texto */
+}
+
+.next {
+    right: 0; /* Posiciona o botão "próximo" à direita */
+    border-radius: 3px 0 0 3px; /* Bordas arredondadas no canto esquerdo */
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Muda a cor de fundo ao passar o mouse */
+}
+
+.container {
+    width: 90%; /* Largura de 90% da tela */
+    max-width: 1200px; /* Largura máxima de 1200px */
+    margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+}
+
+header {
+    background-color: #2c3e50; /* Cor de fundo do cabeçalho */
+    padding: 20px 0; /* Espaçamento vertical do cabeçalho */
+}
+
+header .logo {
+    color: white; /* Cor do texto da logo */
+    font-size: 24px; /* Tamanho da fonte da logo */
+    font-weight: bold; /* Texto da logo em negrito */
+}
+
+header nav {
+    float: right; /* Posiciona a navegação à direita */
+}
+
+header nav ul {
+    list-style: none; /* Remove marcadores de lista */
+}
+
+header nav ul li {
+    display: inline-block; /* Exibe os itens de navegação em linha */
+    margin-left: 20px; /* Espaçamento à esquerda dos itens */
+}
+
+header nav ul li a {
+    color: white; /* Cor dos links no menu */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-weight: bold; /* Links em negrito */
+}
+
+header nav ul li a.btn {
+    background-color: #18bc9c; /* Cor de fundo para botões no menu */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border-radius: 5px; /* Bordas arredondadas do botão */
+}
+
+.hero {
+    height: 80vh; /* Altura da seção hero (80% da altura da tela) */
+    background-color: #2980b9; /* Cor de fundo da seção hero */
+    display: flex; /* Usa flexbox para alinhar conteúdo */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    text-align: center; /* Centraliza o texto */
+    color: white; /* Cor do texto */
+}
+
+.hero h2 {
+    font-size: 48px; /* Tamanho da fonte do título */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+.hero-content p {
+    font-size: 18px; /* Tamanho da fonte do parágrafo */
+    margin-bottom: 30px; /* Espaçamento abaixo do parágrafo */
+}
+
+.hero .btn-hero {
+    background-color: #18bc9c; /* Cor de fundo do botão da seção hero */
+    padding: 15px 30px; /* Espaçamento interno do botão */
+    color: white; /* Cor do texto do botão */
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.about, .services, .pricing, .testimonials, .contact {
+    padding: 60px 0; /* Espaçamento vertical para as seções */
+}
+
+.about p, .services p, .pricing p, .testimonials p {
+    text-align: center; /* Centraliza o texto das seções */
+    margin: 0 auto; /* Centraliza o parágrafo horizontalmente */
+    max-width: 800px; /* Largura máxima de 800px */
+}
+
+.services-grid, .pricing-grid, .testimonials-grid {
+    display: flex; /* Usa flexbox para layout em grade */
+    justify-content: space-between; /* Espaça igualmente os itens */
+}
+
+.service-item, .pricing-item, .testimonial-item {
+    text-align: center; /* Centraliza o texto nos itens */
+    width: 30%; /* Largura de 30% para cada item */
+    background: white; /* Fundo branco nos itens */
+    padding: 20px; /* Espaçamento interno dos itens */
+    border-radius: 10px; /* Bordas arredondadas dos itens */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra leve nos itens */
+}
+
+.service-item img, .pricing-item img {
+    width: 60px; /* Define o tamanho das imagens dentro dos itens */
+    margin-bottom: 20px; /* Espaçamento abaixo das imagens */
+}
+
+.pricing-item h3 {
+    font-size: 24px; /* Tamanho da fonte dos títulos de preço */
+    margin-bottom: 10px; /* Espaçamento abaixo dos títulos */
+}
+
+.pricing-item p {
+    font-size: 20px; /* Tamanho da fonte do preço */
+    color: #18bc9c; /* Cor do preço */
+}
+
+.pricing-item ul {
+    list-style: none; /* Remove os marcadores da lista */
+    margin: 20px 0; /* Espaçamento vertical da lista */
+}
+
+.pricing-item ul li {
+    margin-bottom: 10px; /* Espaçamento entre itens da lista */
+}
+
+.contact-form {
+    display: flex; /* Layout flexível para o formulário */
+    flex-direction: column; /* Coloca os itens do formulário em coluna */
+    gap: 15px; /* Espaçamento entre os elementos do formulário */
+    width: 50%; /* Largura de 50% para o formulário */
+    margin: 0 auto; /* Centraliza o formulário horizontalmente */
+}
+
+.contact-form input, .contact-form textarea, .contact-form button {
+    padding: 15px; /* Espaçamento interno dos campos do formulário */
+    border-radius: 5px; /* Bordas arredondadas dos campos */
+    border: 1px solid #ddd; /* Borda cinza clara nos campos */
+    font-size: 16px; /* Tamanho da fonte dos campos */
+}
+
+.p3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    
+}
+
+footer {
+    background-color: #2c3e50; /* Cor de fundo do rodapé */
+    padding: 20px 0; /* Espaçamento vertical no rodapé */
+    color: white; /* Cor do texto no rodapé */
+    text-align: center; /* Centraliza o texto */
+}
+
+footer .social {
+    list-style: none; /* Remove marcadores da lista de redes sociais */
+    margin-top: 20px; /* Espaçamento acima da lista */
+}
+
+footer .social li {
+    display: inline-block; /* Exibe os ícones de redes sociais em linha */
+    margin: 0 10px; /* Espaçamento entre os ícones */
+}
+
+footer .social li a img {
+    width: 20px; /* Tamanho dos ícones de redes sociais */
+}

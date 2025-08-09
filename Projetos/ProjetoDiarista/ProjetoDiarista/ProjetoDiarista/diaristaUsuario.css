@@ -1,0 +1,36 @@
+/* Arquivo: styles.css */
+
+/* Configura a imagem de fundo */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('imagens/imagem1.jpeg'); /* Insira o caminho da imagem */
+    background-size: cover; /* Faz com que a imagem cubra a tela inteira */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com transparência */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

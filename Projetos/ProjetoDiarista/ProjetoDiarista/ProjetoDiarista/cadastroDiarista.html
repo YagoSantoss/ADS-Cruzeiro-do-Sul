@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Diarista</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Cadastro de Diarista</h1>
+        <form action="cadastroDiarista.html" method="POST">
+            
+            <div class="input-group">
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="input-group">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" required>
+            </div>
+
+            <div class="input-group">
+                <label for="endereco">Endereço</label>
+                <input type="text" id="endereco" name="endereco" required>
+            </div>
+
+            <div class="input-group">
+                <label for="experiencia">Anos de Experiência</label>
+                <input type="number" id="experiencia" name="experiencia" min="0" required>
+            </div>
+
+            <div class="input-group">
+                <label for="disponibilidade">Disponibilidade</label>
+                <input type="text" id="disponibilidade" name="disponibilidade" required>
+            </div>
+
+            <h2>Valores por Cômodo</h2>
+            <div class="input-group">
+                <label for="quarto">Quarto (R$)</label>
+                <input type="number" id="quarto" name="quarto" step="0.01" required>
+            </div>
+
+            <div class="input-group">
+                <label for="sala">Sala (R$)</label>
+                <input type="number" id="sala" name="sala" step="0.01" required>
+            </div>
+
+            <div class="input-group">
+                <label for="cozinha">Cozinha (R$)</label>
+                <input type="number" id="cozinha" name="cozinha" step="0.01" required>
+            </div>
+
+            <div class="input-group">
+                <label for="banheiro">Banheiro (R$)</label>
+                <input type="number" id="banheiro" name="banheiro" step="0.01" required>
+            </div>
+
+            <input type="submit" value="Cadastrar Diarista">
+        </form>
+    </div>
+
+</body>
+</html>
