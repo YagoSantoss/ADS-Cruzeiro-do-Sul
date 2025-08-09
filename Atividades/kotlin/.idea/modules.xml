@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/11calculadoracientifica/11calculadoracientifica.iml" filepath="$PROJECT_DIR$/11calculadoracientifica/11calculadoracientifica.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13Alunoherda/13Alunoherda.iml" filepath="$PROJECT_DIR$/13Alunoherda/13Alunoherda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14classefuncionario/14classefuncionario.iml" filepath="$PROJECT_DIR$/14classefuncionario/14classefuncionario.iml" />
+      <module fileurl="file://$PROJECT_DIR$/15maininstacie/15maininstacie.iml" filepath="$PROJECT_DIR$/15maininstacie/15maininstacie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/16interfaceAnimal/16interfaceAnimal.iml" filepath="$PROJECT_DIR$/16interfaceAnimal/16interfaceAnimal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/17conta/17conta.iml" filepath="$PROJECT_DIR$/17conta/17conta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/18classeautor/18classeautor.iml" filepath="$PROJECT_DIR$/18classeautor/18classeautor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/19classeEditora/19classeEditora.iml" filepath="$PROJECT_DIR$/19classeEditora/19classeEditora.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20classelivro/20classelivro.iml" filepath="$PROJECT_DIR$/20classelivro/20classelivro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/21instaciar/21instaciar.iml" filepath="$PROJECT_DIR$/21instaciar/21instaciar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/kotlin.iml" filepath="$PROJECT_DIR$/.idea/kotlin.iml" />
+    </modules>
+  </component>
+</project>
